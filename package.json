@@ -1,0 +1,26 @@
+{
+  "name": "minimumdelay",
+  "version": "1.0.0",
+  "description": "A tiny (61 bytes) minimum delay for Promises",
+  "keywords": [
+    "promise",
+    "delay",
+    "setTimeout",
+    "wait"
+  ],
+  "author": "Jake Seeary <effectiveduck@gmail.com>",
+  "license": "MIT",
+  "repository": "effectiveduck/minimumdelay",
+  "devDependencies": {
+    "size-limit": "^0.14.1"
+  },
+  "scripts": {
+    "size": "size-limit"
+  },
+  "size-limit": [
+    {
+      "path": "index.js",
+      "limit": "61 B"
+    }
+  ]
+}
